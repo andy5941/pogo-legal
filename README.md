@@ -13,10 +13,10 @@ This repository hosts the **Privacy Policy** and **Terms of Use** for the [POGO]
 
 After **Settings → Pages** is set to deploy from the `main` branch (root):
 
-- **Privacy:** `https://YOUR_USERNAME.github.io/REPO_NAME/privacy.html`
-- **Terms:** `https://YOUR_USERNAME.github.io/REPO_NAME/terms.html`
+- **Privacy:** https://andy5941.github.io/pogo-legal/privacy.html
+- **Terms:** https://andy5941.github.io/pogo-legal/terms.html
 
-Replace `YOUR_USERNAME` and `REPO_NAME` with your GitHub username and this repo’s name. Use these URLs in the app’s `.env` (`EXPO_PUBLIC_PRIVACY_POLICY_URL`, `EXPO_PUBLIC_TERMS_URL`) and in App Store Connect.
+Use these URLs in the app’s `.env` (`EXPO_PUBLIC_PRIVACY_POLICY_URL`, `EXPO_PUBLIC_TERMS_URL`) and in App Store Connect.
 
 ## Updating the pages
 

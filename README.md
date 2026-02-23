@@ -1,13 +1,27 @@
-# POGO – Legal pages
+# POGO – Legal Pages
 
-This repo hosts the **Privacy Policy** and **Terms of Use** for the POGO app, used for App Store and in-app links.
+This repository hosts the **Privacy Policy** and **Terms of Use** for the [POGO](https://apps.apple.com/app/pogo) vertical jump training app. These pages are linked from the app and from App Store Connect.
 
-- **Privacy:** [privacy.html](privacy.html)  
-- **Terms:** [terms.html](terms.html)
+## Contents
 
-After enabling GitHub Pages, the live URLs will be:
+| Page | File | Purpose |
+|------|------|--------|
+| Privacy Policy | [privacy.html](privacy.html) | How we collect, use, and protect your data |
+| Terms of Use | [terms.html](terms.html) | Rules and disclaimers for using the app |
 
-- `https://YOUR_USERNAME.github.io/REPO_NAME/privacy.html`
-- `https://YOUR_USERNAME.github.io/REPO_NAME/terms.html`
+## Live URLs (GitHub Pages)
 
-Replace the placeholder sections in each file with your real content (e.g. copy from Notion), then commit and push.
+After **Settings → Pages** is set to deploy from the `main` branch (root):
+
+- **Privacy:** `https://YOUR_USERNAME.github.io/REPO_NAME/privacy.html`
+- **Terms:** `https://YOUR_USERNAME.github.io/REPO_NAME/terms.html`
+
+Replace `YOUR_USERNAME` and `REPO_NAME` with your GitHub username and this repo’s name. Use these URLs in the app’s `.env` (`EXPO_PUBLIC_PRIVACY_POLICY_URL`, `EXPO_PUBLIC_TERMS_URL`) and in App Store Connect.
+
+## Updating the pages
+
+1. Edit `privacy.html` or `terms.html` in this repo.
+2. Replace **support@yourdomain.com** with your real contact email if you haven’t already.
+3. Commit and push; GitHub Pages will update within a few minutes.
+
+No build step required—plain HTML only.
